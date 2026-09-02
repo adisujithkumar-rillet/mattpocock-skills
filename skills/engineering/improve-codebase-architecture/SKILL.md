@@ -1,12 +1,13 @@
 ---
 name: improve-codebase-architecture
 description: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
-disable-model-invocation: true
 ---
 
 # Improve Codebase Architecture
 
 Surface architectural friction and propose **deepening opportunities**: refactors that turn shallow modules into deep ones. The aim is testability and AI-navigability.
+
+Call the Skill tool with "dense-technical-writing" for the report. Each candidate must earn its space with concrete hotspot or change-path evidence; visuals clarify structure and are not decorative.
 
 This command is _informed_ by the project's domain model and built on a shared design vocabulary:
 

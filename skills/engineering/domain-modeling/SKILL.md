@@ -7,6 +7,10 @@ description: Build and sharpen a project's domain model. Use when discussing cod
 
 Actively build and sharpen the project's domain model as you design. This is the *active* discipline: challenging terms, inventing edge-case scenarios, and writing the glossary and decisions down the moment they crystallise. (Merely *reading* `CONTEXT.md` for vocabulary is not this skill: that's a one-line habit any skill can do. This skill is for when you're changing the model, not just consuming it.)
 
+Call the Skill tool with "dense-technical-writing" for glossary and ADR prose.
+
+Repository instructions and existing ADRs outrank this generic method. In Rillet repositories, prefer established accounting terms from repository sources, verified authoritative accounting sources, or a domain expert. Never invent an accounting term or citation to improve conceptual symmetry; frame unresolved naming as a precise question.
+
 ## File structure
 
 Most repos have a single context:
@@ -59,7 +63,7 @@ When the user states how something works, check whether the code agrees. If you 
 
 ### Update CONTEXT.md inline
 
-When a term is resolved, update `CONTEXT.md` right there. Don't batch these up: capture them as they happen. Use the format in [CONTEXT-FORMAT.md](./CONTEXT-FORMAT.md).
+When a term is resolved, propose the `CONTEXT.md` update right there. Write it only when the user's request authorizes repository edits. Don't batch authorized updates: capture them as they happen. Use the format in [CONTEXT-FORMAT.md](./CONTEXT-FORMAT.md).
 
 `CONTEXT.md` should be totally devoid of implementation details. Do not treat `CONTEXT.md` as a spec, a scratch pad, or a repository for implementation decisions. It is a glossary and nothing else.
 

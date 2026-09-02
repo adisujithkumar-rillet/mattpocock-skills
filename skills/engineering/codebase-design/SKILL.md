@@ -7,6 +7,10 @@ description: Shared vocabulary for designing deep modules. Use when the user wan
 
 Design **deep modules**: a lot of behaviour behind a small interface, placed at a clean seam, testable through that interface. Use this language and these principles wherever code is being designed or restructured. The aim is leverage for callers, locality for maintainers, and testability for everyone.
 
+Call the Skill tool with "dense-technical-writing" for design explanations and interface comparisons.
+
+Treat this vocabulary as a lens, not authority over the repository. User requirements, enforced architecture, repository instructions, and ADRs outrank generic deep-module heuristics. In Rillet repositories, preserve DDD and hexagonal boundaries, Roo ownership, and existing complexity rules; propose a new seam only when it improves an observed change path or removes demonstrated coupling.
+
 ## Glossary
 
 Use these terms exactly: don't substitute "component," "service," "API," or "boundary." Consistent language is the whole point.
