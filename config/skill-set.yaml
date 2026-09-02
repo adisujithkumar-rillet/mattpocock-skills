@@ -1,0 +1,35 @@
+upstream:
+  repository: mattpocock/skills
+  baseline: 4ae2317ddb22b046e26455e4f9c9b3aaaf62212d
+
+profile: rillet-codex
+
+installed:
+  - skills/engineering/codebase-design
+  - skills/engineering/domain-modeling
+  - skills/engineering/grill-with-docs
+  - skills/engineering/improve-codebase-architecture
+  - skills/engineering/prototype
+  - skills/engineering/research
+  - skills/engineering/setup-matt-pocock-skills
+  - skills/engineering/to-spec
+  - skills/engineering/to-tickets
+  - skills/engineering/triage
+  - skills/engineering/wayfinder
+  - skills/engineering/wizard
+  - skills/productivity/dense-technical-writing
+  - skills/productivity/grill-me
+  - skills/productivity/grilling
+  - skills/productivity/handoff
+  - skills/productivity/teach
+  - skills/productivity/to-questionnaire
+  - skills/productivity/wait-what
+  - skills/productivity/writing-for-agents
+
+excluded:
+  ask-matt: Curated installation has no need for the full-repository router.
+  code-review: Overlaps with pr-review and Rillet-specific review skills.
+  diagnosing-bugs: Overlaps with systematic-debugging.
+  implement: Conflicts with Rillet worktree, delivery, and publication workflows.
+  tdd: Avoids competing automatic TDD disciplines until evaluated separately.
+  resolving-merge-conflicts: Deleted upstream; the pre-deletion copy lives at ~/.agents/skills/resolving-merge-conflicts.

@@ -1,12 +1,13 @@
 ---
 name: triage
 description: Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.
-disable-model-invocation: true
 ---
 
 # Triage
 
 Move issues on the project issue tracker through a small state machine of triage roles.
+
+Call the Skill tool with "dense-technical-writing" for summaries, triage notes, and agent briefs. Use the configured tracker as authority for states and labels; never create new labels or statuses unless the user explicitly asks.
 
 If this repo treats external pull requests as a request surface (see the issue-tracker config), triage covers them too: **a PR is an issue with attached code**, using the same roles, same states, and same machine, with a few deltas marked "for a PR" below. Resolve a bare `#42` to an issue or PR per the tracker config.
 

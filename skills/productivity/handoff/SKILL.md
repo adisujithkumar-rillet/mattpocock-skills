@@ -1,11 +1,11 @@
 ---
 name: handoff
 description: Compact the current conversation into a handoff document for another agent to pick up.
-argument-hint: "What will the next session be used for?"
-disable-model-invocation: true
 ---
 
 Write a handoff document summarising the current conversation so a fresh agent can continue the work. Save to the temporary directory of the user's OS (`$TMPDIR`, else `/tmp`; `%TEMP%` on Windows) - not the current workspace.
+
+Call the Skill tool with "dense-technical-writing". Prioritize current state, evidence, remaining work, and blockers; omit a narrative replay of the conversation.
 
 Include a "suggested skills" section in the document, naming which skills the next agent should call the Skill tool for.
 
